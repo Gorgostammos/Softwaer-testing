@@ -28,6 +28,12 @@ public class Leapyaer_Test {
         assertEquals(false, Loopyear.isLeapYear(2100));
     }
 
+    @Test
+    public void not_divid_by_4() {
+        assertEquals(false, Loopyear.isLeapYear(2047));
+    }
+
+
 }
 
 
